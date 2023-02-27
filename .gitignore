@@ -1,0 +1,15 @@
+.idea
+*.iws
+*.iml
+*.ipr
+
+logs/
+log
+temp/
+
+.DS_Store
+
+bin/
+gen/
+
+target/
