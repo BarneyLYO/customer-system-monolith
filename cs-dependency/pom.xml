@@ -21,7 +21,7 @@
         <revision>1.6.2-snapshot</revision>
         <spring.boot.version>2.6.8</spring.boot.version>
         <spring.cloud.version>2021.0.1</spring.cloud.version>
-        <spring.data.version>2.2.3</spring.data.version>
+        <spring.data.version>2.2.3.RELEASE</spring.data.version>
         <spring.cloud.alibaba.version>2021.0.1.0</spring.cloud.alibaba.version>
         <!--   DB     -->
         <druid.version>1.2.8</druid.version>

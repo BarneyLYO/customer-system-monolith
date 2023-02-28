@@ -6,7 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="outsouring-system-beijing" />
+        <module name="cs-infrastructure-utility" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="customer-system-monolith" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
