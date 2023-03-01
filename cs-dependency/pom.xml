@@ -25,8 +25,8 @@
         <spring.cloud.alibaba.version>2021.0.1.0</spring.cloud.alibaba.version>
         <!--   DB     -->
         <druid.version>1.2.8</druid.version>
-        <mabatis-plus.version>3.4.3.4</mabatis-plus.version>
-        <mabatis-plus-generator.version>3.5.2</mabatis-plus-generator.version>
+        <mybatis-plus.version>3.4.3.4</mybatis-plus.version>
+        <mybatis-plus-generator.version>3.5.2</mybatis-plus-generator.version>
         <dynamic-datasource.version>3.5.0</dynamic-datasource.version>
 
         <!--    Alibaba    -->
