@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cs-dependency-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cs-dependency-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cs-dependency/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cs-dependency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cs-infrastructure-dependency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cs-infrastructure-dependency/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cs-infrastructure-utility/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cs-infrastructure-utility/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/outsouring-system/outsouring-system-beijing/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/outsouring-system/outsouring-system-beijing/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/outsouring-system/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/outsouring-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/outsourcing-system-beijing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/outsourcing-system-beijing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/outsourcing-system-dependency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/outsourcing-system-dependency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/outsourcing-system-hangzhou/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/outsourcing-system-hangzhou/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/outsourcing-system-shanghai/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/outsourcing-system-shanghai/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsourcing-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsouring-system/outsourcing-system-shanghai/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/outsouring-system/outsourcing-system-shanghai/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

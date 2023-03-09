@@ -1,13 +1,17 @@
 package org.barney.infrastructure.utils;
 
+import org.apache.logging.log4j.util.Strings;
 import org.springframework.util.ObjectUtils;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 
 public class StringUtils extends org.springframework.util.StringUtils {
+    private static String BEAM_LOG_PREFIX = "\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n";
+    private static String BEAM_LOG_SUFFIX = "\n<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n";
     private static Charset ENCODING = StandardCharsets.UTF_8;
 
     public static final String EMPTY = "";
@@ -99,5 +103,16 @@ public class StringUtils extends org.springframework.util.StringUtils {
         }
 
         return new String(newChars);
+    }
+
+
+    public static String beanLogOf(String ...messages){
+        StringBuilder builder = new StringBuilder();
+        builder.append(BEAM_LOG_PREFIX);
+        for(String m : messages) {
+            builder.append(m);
+        }
+        builder.append(BEAM_LOG_SUFFIX);
+        return builder.toString();
     }
 }
